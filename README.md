@@ -18,4 +18,8 @@
 --select title from film where title like '%n' order by length desc limit 5
 --select title from film where title like '%n' order by length asc limit 5 offset 5 
 --select * from customer where store_id = 1 order by last_name desc limit 4
-
+# patikadvdrental5
+--select round(avg(rental_rate),3) from film
+--select count(title) from film where title like 'C%'
+--select max(length) from film where rental_rate = 0.99
+--select count(distinct replacement_cost) from film where length > 150
