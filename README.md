@@ -29,3 +29,24 @@
 --having count(title) > 50
 --select store_id, count(customer) from customer group by store_id
 --select country_id, count(city) from city group by country_id order by count(city) desc limit 1
+# patikadvdrental8
+-- create table employee(
+-- 	id serial primary key,
+-- 	name varchar(50),
+-- 	birthday Date,
+-- 	email varchar(50)
+-- )
+--update employee set name = 'Ahmet' where name = 'Latrena'
+--update employee set birthday = '1982-05-18' where name = 'Giustino' and birthday = '1926-06-20'
+--update employee set email = 'fracier@marriott.com' where name = 'Frasier' and email = 'fsicelya@marriott.com'
+--update employee set name = 'Mehmet' where name = 'Nanon'
+--update employee set name = 'Ayşe' where name = 'Frannie'
+--delete from employee where name = 'Ahmet'
+--delete from employee where name = 'Mehmet'
+--delete from employee where id = 8
+--delete from employee where birthday = '1979-05-03'
+--delete from employee where email = 'fvannonil@cornell.edu'
+# patikadvdrental9
+--select city,country from city inner join country on city.country_id = country.country_id
+--select payment_id, first_name, last_name from customer inner join payment on payment.customer_id = customer.customer_id
+--select rental_id, first_name, last_name from customer inner join rental on customer.customer_id = rental.customer_id
