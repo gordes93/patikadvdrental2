@@ -54,3 +54,16 @@
 --select city, country from city left join country on city.country_id = country.country_id
 --select first_name, last_name, payment_id from customer right join payment on customer.customer_id = payment.customer_id
 --select first_name, last_name, rental_id from customer full join rental on customer.customer_id = rental.customer_id
+# patikadvdrental12
+SELECT customer.first_name, customer.last_name
+-- FROM customer
+-- INNER JOIN payment ON customer.customer_id = payment.customer_id
+-- GROUP BY customer.customer_id, customer.first_name, customer.last_name
+-- HAVING COUNT(payment.payment_id) = (
+--     SELECT MAX(payment_count) 
+--     FROM (
+--         SELECT COUNT(payment_id) AS payment_count
+--         FROM payment
+--         GROUP BY customer_id
+--     ) AS payment_counts
+-- );
